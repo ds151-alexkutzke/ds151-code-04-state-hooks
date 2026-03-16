@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
+import { View } from 'react-native';
 import Counter from '../components/Counter';
 
 const CounterScreen = () => {
@@ -9,9 +9,5 @@ const CounterScreen = () => {
     </View>
   )
 }
-
-const styles = StyleSheet.create({
-
-});
 
 export default CounterScreen;
