@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { View, Button, Text } from 'react-native';
 
 const updateCounter = (current: number, x: number): number => Math.max(0, current + x)
