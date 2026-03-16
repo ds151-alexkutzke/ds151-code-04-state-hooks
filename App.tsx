@@ -1,13 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text } from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
-import ColorListScreen from './src/screens/ColorListScreen';
+import ColorCounterScreen from './src/screens/ColorCounterScreen';
 
 export default function App() {
   return (
     <SafeAreaProvider>
       <SafeAreaView style={styles.container}>
-        <ColorListScreen />
+        <ColorCounterScreen />
         <StatusBar style="auto" />
       </SafeAreaView >
     </SafeAreaProvider>
