@@ -3,7 +3,7 @@
 Clone o projeto e execute o seguinte:
 
 ```
-npm install
+npm ci
 npx expo start
 ```
 
